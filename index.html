@@ -153,7 +153,7 @@
 <body>
 
 <h2>Cargar un PDF </h2>
-    <p>Contribuye con la comunidad colaborativa y compate tu estudio o articulo cientifico para que nuestralinea d eeditores lo valide para publicarlo en la pagina</p>
+    <p>Contribuye con la comunidad colaborativa y compate tu estudio o articulo cientifico para que nuestra linea de editores lo valide para publicarlo en la pagina</p>
 <input type="file" id="pdfFile" accept="application/pdf">
 <br><br>
 
@@ -166,6 +166,28 @@
     document.getElementById("viewer").src = url;
   });
 </script>
+
+</body>
+<body>
+  <form action="/Formulario" method="post">
+      <label form="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" />
+              <label form="Apellido">Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" />          
+      <label form="Email">Email</label>
+        <input type="text" id="Email" name="Email" placeholder="Email" />  
+        <br>
+        <br>
+        <label for="Comentario">Comentario</label>
+        <textarea cols="40" id="Comentario" placeholder="Ingresar Comentario" name="Comentario"></textarea>
+        <br>
+        <br>
+        ><input type="submit">
+        <button type="button">Enviar</button>
+        <button type="reset">Borrar</button>
+        <button type="submit">Submit</button>
+            </form>
+</body>
 
 </body>
     <footer> 
